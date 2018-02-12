@@ -71,7 +71,7 @@ dist = {}
 
 # reading the file and storing the links between cities in a dictionary dist along with the link cost
 for i in f:
-    if i =="END OF INPUT":
+    if i.strip() =="END OF INPUT":
         break
     a,b,c = i.strip().split()
     dist[a,b] = int(c)
