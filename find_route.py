@@ -55,10 +55,10 @@ def printroute(node,dist):
             print(route[i]+" to "+route[i+1]+", "+str(finddist(route[i],route[i+1],dist))+" km")
 
 # opening the input file    
-filename = 'C:\\Users\\lenovo\\Downloads\\input.txt'
+filename = sys.argv[1]
 f = open(filename,'r')
-s = 'London'
-d = 'Manchester'
+s = sys.argv[2]
+d = sys.argv[3]
 
 # closed set for keeping track of visited cities
 visited_cities = []
