@@ -2,3 +2,6 @@ Its an implementation of Uniform Cost Search that uses BFS as base for searching
 
 To run the algorithm:
 findroute.py input_file source destination
+input_file: file name for input paths
+source: origin city name
+destination: destination city name
