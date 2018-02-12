@@ -1,0 +1,4 @@
+Its an implementation of Uniform Cost Search that uses BFS as base for searching and the fringe is implemented using the queue data structure.
+
+To run the algorithm:
+findroute.py input_file source destination
