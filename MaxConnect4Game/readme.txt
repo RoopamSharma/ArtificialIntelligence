@@ -1,6 +1,3 @@
-Roopam Sharma
-Python 
-Code structure is mentioned in comments
 
 Instructions for running code:
 input file shall be present for running the code
